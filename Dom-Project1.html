@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+        html,body
+        {
+            height: 100%;
+            width: 100%;
+        }
+        body
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cornflowerblue;
+        }
+        #card
+        {
+            height: 400px;
+            border-radius: 10px;
+            width: 300px;
+            background-color: aliceblue;
+            padding: 20px;
+            text-align: center;
+        }
+        #card img
+        {
+            object-fit: cover;
+            height: 50%;
+            width: 100%;
+            border-radius: 10px;
+        }
+        #card h1
+        {
+            font-size: 30px;
+            font-weight:800;
+            margin: 10px 0;
+        }
+        #card h5
+        {
+            font-size: 25px;
+            color: cadetblue;
+            margin-bottom: 20px;
+        }
+        #card button
+        {
+            background-color: aquamarine;
+           color: black;
+            font-weight: 700;
+            padding: 12px 20px;
+            border-radius: 20px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="card">
+        <img src="https://images.unsplash.com/photo-1534008757030-27299c4371b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+        <h1>Aurora</h1>
+        <h5>Stranger</h5>
+        <div id="btn-container">
+            <button id="btn">Add Friend</button>
+        </div>
+    </div>
+
+    <script src="Dom-Project1.js"></script>
+</body>
+</html>
